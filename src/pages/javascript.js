@@ -1,8 +1,8 @@
 
 
-import Footer from "../comp/footer";
+import Footer from "../comp/Footer";
 import Header from "../comp/header";
-
+import MainContent from "../comp/MainContent";
 
 
 
@@ -14,9 +14,7 @@ const Javascript = () => {
        
        <Header />
       
-        <main>
-         JavaScript Page
-        </main>
+       <MainContent pageName="JavaScript" designer="Riyan Adnan" />
 
         <Footer />
         

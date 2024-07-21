@@ -1,13 +1,14 @@
 
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import './Header.css';
 
 
 const Header = () => {
     return (
         <div>
             
-            <header className="hide-when-mobile">
+            <header className="hide-when-mobile riyan">
 
           <h1>
             <Link to="/">
@@ -79,7 +80,7 @@ const Header = () => {
           </ul>
         </header>
          
-        {/* <header style={{backgroundColor: "red"}} className="show-when-mobile">
+        <header style={{backgroundColor: "red"}} className="show-when-mobile">
           <h1>Riyan Courses</h1>
           <label className="absolute" htmlFor="burger">
             <i className="fas fa-bars" />
@@ -93,13 +94,13 @@ const Header = () => {
               <input id="html" type="checkbox" />
               <ul className="sub-div">
                 <li>
-                  <a href="#">Full Course</a>
+                  <Link to="#">Full Course</Link>
                 </li>
                 <li>
-                  <a href="#">Crash Course</a>
+                  <Link to="#">Crash Course</Link>
                 </li>
                 <li>
-                  <a href="#">learn in 1h</a>
+                  <Link to="#">learn in 1h</Link>
                 </li>
               </ul>
             </div>
@@ -110,10 +111,10 @@ const Header = () => {
               <input id="css" type="checkbox" />
               <ul className="sub-div">
                 <li>
-                  <a href="#">Full Course</a>
+                  <Link to="#">Full Course</Link>
                 </li>
                 <li>
-                  <a href="#">CSS Examples</a>
+                  <Link to="#">CSS Examples</Link>
                 </li>
                 <li>
                   <label className="mini-projects" htmlFor="mini">
@@ -122,13 +123,13 @@ const Header = () => {
                   <input id="mini" type="checkbox" />
                   <ul className="sub-sub-div">
                     <li>
-                      <a href="#">project 1</a>
+                      <Link to="#">project 1</Link>
                     </li>
                     <li>
-                      <a href="#">project 2</a>
+                      <Link to="#">project 2</Link>
                     </li>
                     <li>
-                      <a href="#">project 3</a>
+                      <Link to="#">project 3</Link>
                     </li>
                   </ul>
                 </li>
@@ -141,13 +142,13 @@ const Header = () => {
               <input id="js" type="checkbox" />
               <ul className="sub-div">
                 <li>
-                  <a href="#">coming soon🔥</a>
+                  <Link to="#">coming soon🔥</Link>
                 </li>
               </ul>
             </div>
           </div>
         </header>
-         */}
+        
         </div>
     );
 }

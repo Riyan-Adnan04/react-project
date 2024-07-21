@@ -1,0 +1,33 @@
+
+
+
+.hide-when-mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+/* ==================
+    3. header of mobile
+===================== */
+.show-when-mobile {
+    display: none;
+  }
+  
+  /* .main-link:hover , .main-link.active {
+    color: cyan;
+    box-shadow: 0 0 5px cyan;
+    border-radius: 5px;
+  } */
+
+
+  @media (max-width: 800px) {
+    
+    .show-when-mobile {
+        display: block;
+      }
+      
+      .hide-when-mobile {
+        display: none;
+      }
+  }

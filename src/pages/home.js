@@ -1,14 +1,9 @@
 
 
 
-import Footer from "../comp/footer";
+import Footer from "../comp/Footer";
 import Header from "../comp/header";
-
-
-
-
-
-
+import MainContent from "../comp/MainContent";
 
 
 
@@ -21,9 +16,7 @@ const Home = () => {
 
         <Header />
       
-        <main>
-         Home Page
-        </main>
+       <MainContent pageName="Home" designer="Riyan Adnan" />
 
         <Footer />
 
