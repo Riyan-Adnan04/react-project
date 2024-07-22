@@ -4,10 +4,12 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="riyan">
-        Designed and developed by RiyanCourses.com
-        <span>🧡</span>
-      </footer>
+       <div className="myfooter">
+         <footer className="riyan">
+         Designed and developed by RiyanCourses.com
+         <span>🧡</span>
+        </footer>
+       </div>
     );
 }
 
