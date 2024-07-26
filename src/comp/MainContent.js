@@ -4,12 +4,12 @@
 import React from 'react';
 import './MainContent.css';
 
-const MainContent = ({pageName, designer}) => {
+const MainContent = ({pageName}) => {
     return (
         <main>
        {pageName} Page
        <br />
-       Designed By {designer}
+      
        </main>
     );
 }

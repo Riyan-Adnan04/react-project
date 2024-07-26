@@ -1,5 +1,7 @@
 
-
+.myheader .riyan {
+  background-color: teal;
+}
 
 .hide-when-mobile {
     display: flex;
@@ -14,11 +16,7 @@
     display: none;
   }
   
-  /* .main-link:hover , .main-link.active {
-    color: cyan;
-    box-shadow: 0 0 5px cyan;
-    border-radius: 5px;
-  } */
+
 
 
   @media (max-width: 800px) {
