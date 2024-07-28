@@ -21,17 +21,17 @@ const Header = () => {
                 HTML
               </NavLink>
 
-              {/* <ul className="sub-ul">
+              <ul className="sub-ul">
                 <li>
-                  <a href="#">Full Course</a>
+                  <NavLink to="/html">Full Course</NavLink>
                 </li>
                 <li>
-                  <a href="#">Crash Course</a>
+                  <NavLink to="#">Crash Course</NavLink>
                 </li>
                 <li>
-                  <a href="#">learn in 1h</a>
+                  <NavLink to="#">learn in 1h</NavLink>
                 </li>
-              </ul> */}
+              </ul>
             </li>
 
             <li className="main-list">
@@ -40,28 +40,28 @@ const Header = () => {
                 CSS
               </NavLink>
               
-              {/* <ul className="sub-ul">
+              <ul className="sub-ul">
                 <li>
-                  <a href="#">Full Course</a>
+                  <NavLink to="/css">Full Course</NavLink>
                 </li>
                 <li>
-                  <a href="#">CSS Examples</a>
+                  <NavLink to="#">CSS Examples</NavLink>
                 </li>
                 <li className="mini-projects">
-                  <a href="">mini projects&nbsp; + </a>
+                  <NavLink to="">mini projects&nbsp; + </NavLink>
                   <ul className="sub-sub-ul">
                     <li>
-                      <a href="#">project 1</a>
+                      <NavLink to="#">project 1</NavLink>
                     </li>
                     <li>
-                      <a href="">project 2</a>
+                      <NavLink to="">project 2</NavLink>
                     </li>
                     <li>
-                      <a href="">project 3</a>
+                      <NavLink to="">project 3</NavLink>
                     </li>
                   </ul>
                 </li>
-              </ul> */}
+              </ul>
 
             </li>
             <li className="main-list">
@@ -70,16 +70,16 @@ const Header = () => {
                 JavaScript
               </NavLink>
 
-              {/* <ul className="sub-ul sub-of-js">
+              <ul className="sub-ul sub-of-js">
                 <li>
-                  <a href="">coming soon🔥</a>
+                  <NavLink to="#">coming soon🔥</NavLink>
                 </li>
-              </ul> */}
+              </ul>
             </li>
           </ul>
         </header>
          
-        <header  className="show-when-mobile">
+        <header  className="show-when-mobile riyan">
           <h1>Riyan Courses</h1>
           <label className="absolute" htmlFor="burger">
             <i className="fas fa-bars" />
